@@ -1,0 +1,154 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Tao Xie": {
+      "orcid": "0000-0002-6727-7739"
+    },
+    "Sanne J. H. van Rooij": {
+      "orcid": "0000-0002-0160-7248"
+    },
+    "Sai Sun": {
+      "orcid": "0000-0003-3328-2166"
+    },
+    "Noah K. Bryson": {
+      "orcid": "0009-0008-1908-7237"
+    },
+    "Phillip Demarest": {
+      "orcid": "0009-0005-0330-8785"
+    },
+    "Haeorum Park": {
+      "orcid": "0000-0003-2357-603X"
+    },
+    "Luigi Maccotta": {
+      "orcid": "0000-0003-3702-0331"
+    },
+    "Shuo Wang": {
+      "orcid": "0000-0003-2562-0225"
+    },
+    "Peter Brunner": {
+      "orcid": "0000-0002-2588-2754"
+    },
+    "Jon T. Willie": {
+      "orcid": "0000-0001-9565-4338"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41467-026-74099-5",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000469",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000469",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "American Epilepsy Society Research & Training Fellowship for clinicians"
+    },
+    {
+      "funder_name": "McDonnell Center for Systems Neuroscience"
+    },
+    {
+      "funder_name": "Brain & Behavior Research Foundation"
+    },
+    {
+      "funder_name": "Fondazione Neurone"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01-MH120194"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "K01-MH121653"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01-MH129426"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01-EB026439"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "U24-NS109103"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "U01-NS108916"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "U01-NS128612"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "P41-EB018783"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01-EY037195"
+    },
+    {
+      "funder_name": "American Epilepsy Society",
+      "award_title": "Research & Training Fellowship for clinicians"
+    }
+  ],
+  "title": "Xie2026 amygdala ablation PTSD: epoched stereo-EEG of the index patient before and after right amygdala radiofrequency ablation (interpretation-bias task)",
+  "license": "CC-BY-NC-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "177 MB (6 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".png",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Epoched stereo-EEG (157 contacts, 200 Hz, 588 trials) from a single patient with post-traumatic stress disorder, recorded during a face interpretation-bias task before and after SEEG-guided radiofrequency ablation of the right amygdala. The data are a BIDS derivative repackaging of the de-identified signals, event markers and channel annotations released by the authors on OSF. They support analysis of amygdala-related neural activity changes associated with reduced negative interpretation bias and symptoms.",
+  "methods_description": "Stereo-EEG was recorded from one PTSD patient during a face interpretation-bias task in pre-ablation and post-ablation sessions. Epochs span -0.5 to 0.795 s (260 samples at 200 Hz) and were repackaged into BrainVision float32 files per session. Contact coordinates and anatomical labels come from the released channel information.",
+  "keywords": [
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "Amygdala",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000679"
+    },
+    {
+      "term": "radiofrequency ablation"
+    },
+    {
+      "term": "post-traumatic stress disorder"
+    },
+    {
+      "term": "interpretation bias"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "source_hash": "dfe2c2cfa36e72fe425fb8355d9989377b7f9b11a19f6d9c8ff256bf99bb6e45"
+}

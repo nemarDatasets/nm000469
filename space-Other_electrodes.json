@@ -1,0 +1,12 @@
+{
+  "SpatialReference": "n/a (the release gives coordinates in chanlocs.tala without naming the template or reference image)",
+  "anatomical_label": {
+    "Description": "Per-contact anatomical annotation from chanlocs.annoLab (e.g. amygdala nucleus), as released"
+  },
+  "anatomical_category": {
+    "Description": "Region category from chanlocs.annoCat (e.g. Amy = amygdala), as released"
+  },
+  "electrode_name": {
+    "Description": "Original electrode/contact name (chanlocs.electrodeNames)"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "onset": {
+    "Description": "Start of the trial segment in this file (trials are written back-to-back)",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Length of the trial segment",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "First sample of the trial segment in the file (0-based)"
+  },
+  "trial_index": {
+    "Description": "Trial number in the released file (1-based, release order)"
+  },
+  "trial_time_start": {
+    "Description": "Authors' time axis value of the first sample of the trial (s, relative to the trial's event; n/a if not released)",
+    "Units": "s"
+  },
+  "face_name": {
+    "Description": "Stimulus face identifier (event.faceName)"
+  },
+  "fear_level": {
+    "Description": "Fear morph level of the face (event.fear)",
+    "Units": "percent"
+  },
+  "happy_level": {
+    "Description": "Happy morph level of the face (event.happy)",
+    "Units": "percent"
+  },
+  "em_key": {
+    "Description": "Emotion-judgement key code (event.em)"
+  },
+  "em_rt": {
+    "Description": "Emotion-judgement reaction time (event.emRT)",
+    "Units": "s"
+  },
+  "validity": {
+    "Description": "Trial validity flag (event.validity)"
+  },
+  "cf_key": {
+    "Description": "Confidence key code (event.cf)"
+  },
+  "cf_rt": {
+    "Description": "Confidence reaction time (event.cfRT)",
+    "Units": "s"
+  },
+  "run": {
+    "Description": "Run number (event.runNum)"
+  },
+  "source_trial_index": {
+    "Description": "Trial index in the released eeg.data (1-based, both sessions)"
+  }
+}

@@ -1,0 +1,36 @@
+{
+ "recordings": [
+  {
+   "n_trials": 252,
+   "n_samples": 65520,
+   "sfreq": 200.0,
+   "n_channels": 157,
+   "float32_max_abs_err": 0.0,
+   "roundtrip_ok": true,
+   "duration_s": 327.6,
+   "sub": "sub-01",
+   "ses": "ses-pre",
+   "stem": "sub-01_ses-pre_task-interpretation"
+  },
+  {
+   "n_trials": 336,
+   "n_samples": 87360,
+   "sfreq": 200.0,
+   "n_channels": 157,
+   "float32_max_abs_err": 0.0,
+   "roundtrip_ok": true,
+   "duration_s": 436.8,
+   "sub": "sub-01",
+   "ses": "ses-post",
+   "stem": "sub-01_ses-post_task-interpretation"
+  }
+ ],
+ "privacy_flags": [
+  "__header__:MATLAB 5.0 MAT-file, Platform: MACA64, Created on: Mon Nov 17 13:47:41 2025"
+ ],
+ "sessions": [
+  "pre",
+  "post"
+ ],
+ "n_channels": 157
+}

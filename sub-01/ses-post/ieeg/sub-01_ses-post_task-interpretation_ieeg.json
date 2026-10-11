@@ -1,0 +1,27 @@
+{
+  "TaskName": "interpretation",
+  "TaskDescription": "Face-based interpretation-bias task (article): on each trial a face with a mixture of fear and happy expression (fear_level / happy_level, %) was shown and the patient judged the emotion (em key, em_rt) and confidence (cf key, cf_rt). Epochs from -0.5 to 0.795 s around face onset (eeg.times), 200 Hz, from the index patient before (ses-pre) and after (ses-post) SEEG-guided radiofrequency ablation of the right amygdala. Trial details beyond the released event fields are in the article.",
+  "Instructions": "n/a (see article)",
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "AuthorsPreprocessing": {
+      "Description": "The release contains preprocessed, epoched signals (float32, 200 Hz); the preprocessing steps are described in the article, not in the release. Values written unchanged."
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a (not stated in the release)",
+  "iEEGPlacementScheme": "stereo-EEG depth electrodes; per-contact anatomical labels (annoLab / annoCat) and coordinates (tala) are released in eeg.chanlocs",
+  "ElectricalStimulation": false,
+  "Manufacturer": "n/a",
+  "SamplingFrequency": 200.0,
+  "RecordingDuration": 436.8,
+  "RecordingType": "epoched",
+  "EpochLength": 1.3,
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 157,
+  "DBSChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0
+}

@@ -1,0 +1,6 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "Coordinates copied from eeg.chanlocs.tala of the release (field name suggests Talairach space; the release does not state the template or the localisation method, so the space is recorded as Other). Units assumed mm.",
+  "iEEGCoordinateProcessingDescription": "values copied unchanged from chanlocs.tala"
+}

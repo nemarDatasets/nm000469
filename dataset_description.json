@@ -1,0 +1,56 @@
+{
+  "Name": "Xie2026 amygdala ablation PTSD: epoched stereo-EEG of the index patient before and after right amygdala radiofrequency ablation (interpretation-bias task)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-NC-4.0",
+  "Authors": [
+    "Tao Xie",
+    "Sanne J. H. van Rooij",
+    "Sai Sun",
+    "Noah K. Bryson",
+    "Phillip Demarest",
+    "Haeorum Park",
+    "Luigi Maccotta",
+    "Shuo Wang",
+    "Peter Brunner",
+    "Jon T. Willie"
+  ],
+  "HowToAcknowledge": "Cite Xie T et al. (2026) Right amygdala ablation reduces maladaptive negative interpretation bias and symptoms in a patient with PTSD. Nature Communications, doi:10.1038/s41467-026-74099-5, and the OSF release https://osf.io/63tym/.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41467-026-74099-5",
+    "https://osf.io/63tym/"
+  ],
+  "Keywords": [
+    "stereo-EEG",
+    "amygdala",
+    "radiofrequency ablation",
+    "PTSD",
+    "interpretation bias",
+    "event-related potentials"
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://osf.io/63tym/",
+      "Version": "OSF node 63tym (files as downloaded 2026-10-11; sha256 in sourcedata/osf-63tym/DEIDENTIFICATION_MANIFEST.tsv)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "o5c_A1_convert_lit67.py",
+      "Description": "Repackaging of eeg.data epochs (per session, back-to-back) into BrainVision float32 with the released event fields and chanlocs annotations/coordinates. Code in code/."
+    }
+  ],
+  "EthicsApprovals": [
+    "Collected under the source study's approval (see the article, doi:10.1038/s41467-026-74099-5); the release states the signals are de-identified."
+  ],
+  "Funding": [
+    "NIH R01-MH120194",
+    "NIH K01-MH121653",
+    "NIH R01-MH129426",
+    "NIH R01-EB026439, U24-NS109103, U01-NS108916, U01-NS128612, P41-EB018783, R01-EY037195",
+    "American Epilepsy Society Research & Training Fellowship for clinicians",
+    "McDonnell Center for Systems Neuroscience",
+    "Brain & Behavior Research Foundation",
+    "Fondazione Neurone"
+  ]
+}

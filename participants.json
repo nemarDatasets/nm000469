@@ -1,0 +1,11 @@
+{
+  "age": {
+    "Description": "not in the release"
+  },
+  "sex": {
+    "Description": "not in the release"
+  },
+  "diagnosis": {
+    "Description": "from the article"
+  }
+}

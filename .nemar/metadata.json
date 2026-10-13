@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Xie2026 amygdala ablation PTSD: epoched stereo-EEG of the index patient before and after right amygdala radiofrequency ablation (interpretation-bias task)",
+  "description": "Epoched stereo-EEG (157 contacts, 200 Hz, 588 trials) from a single patient with post-traumatic stress disorder, recorded during a face interpretation-bias task before and after SEEG-guided radiofrequency ablation of the right amygdala. The dataset is a BIDS repackaging of the authors' OSF release, including per-contact anatomical labels and coordinates. It supports analysis of amygdala-related neural responses and changes in negative interpretation bias following ablation.",
+  "methods_description": "Stereo-EEG epochs (-0.5 to 0.795 s, 260 samples at 200 Hz) were recorded during a face interpretation-bias task in sessions before and after right amygdala radiofrequency ablation. Released epochs were repackaged into BrainVision float32 files, one per session, with trial events and electrode annotations from the original release.",
+  "license": "CC-BY-NC-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Tao Xie": {
       "orcid": "0000-0002-6727-7739"
@@ -33,6 +38,28 @@
       "orcid": "0000-0001-9565-4338"
     }
   },
+  "keywords": [
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "Amygdala",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000679"
+    },
+    {
+      "term": "radiofrequency ablation"
+    },
+    {
+      "term": "post-traumatic stress disorder"
+    },
+    {
+      "term": "interpretation bias"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41467-026-74099-5",
@@ -104,14 +131,11 @@
       "award_title": "Research & Training Fellowship for clinicians"
     }
   ],
-  "title": "Xie2026 amygdala ablation PTSD: epoched stereo-EEG of the index patient before and after right amygdala radiofrequency ablation (interpretation-bias task)",
-  "license": "CC-BY-NC-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "177 MB (6 files)"
   ],
@@ -120,35 +144,13 @@
     ".json",
     ".m",
     ".mat",
+    ".md",
     ".png",
     ".py",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Epoched stereo-EEG (157 contacts, 200 Hz, 588 trials) from a single patient with post-traumatic stress disorder, recorded during a face interpretation-bias task before and after SEEG-guided radiofrequency ablation of the right amygdala. The data are a BIDS derivative repackaging of the de-identified signals, event markers and channel annotations released by the authors on OSF. They support analysis of amygdala-related neural activity changes associated with reduced negative interpretation bias and symptoms.",
-  "methods_description": "Stereo-EEG was recorded from one PTSD patient during a face interpretation-bias task in pre-ablation and post-ablation sessions. Epochs span -0.5 to 0.795 s (260 samples at 200 Hz) and were repackaged into BrainVision float32 files per session. Contact coordinates and anatomical labels come from the released channel information.",
-  "keywords": [
-    {
-      "term": "stereo-EEG"
-    },
-    {
-      "term": "Amygdala",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000679"
-    },
-    {
-      "term": "radiofrequency ablation"
-    },
-    {
-      "term": "post-traumatic stress disorder"
-    },
-    {
-      "term": "interpretation bias"
-    },
-    {
-      "term": "event-related potentials"
-    }
-  ],
-  "source_hash": "dfe2c2cfa36e72fe425fb8355d9989377b7f9b11a19f6d9c8ff256bf99bb6e45"
+  "source_hash": "206f663437a7858e3b9ca823aff58a0cfc28f5034242536e43598831024934ae"
 }

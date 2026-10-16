@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Xie2026 amygdala ablation PTSD: epoched stereo-EEG of the index patient before and after right amygdala radiofrequency ablation (interpretation-bias task)",
-  "description": "Epoched stereo-EEG (157 contacts, 200 Hz, 588 trials) from a single patient with post-traumatic stress disorder, recorded during a face interpretation-bias task before and after SEEG-guided radiofrequency ablation of the right amygdala. The data are a BIDS derivative repackaging of the authors' OSF release, including event markers and per-contact anatomical annotations such as amygdala nuclei. The dataset supports analysis of amygdala-related neural activity and interpretation bias in PTSD.",
-  "methods_description": "Stereo-EEG epochs (window -0.5 to 0.795 s, 260 samples at 200 Hz) were recorded during a face interpretation-bias task in sessions before and after right amygdala radiofrequency ablation. Released epochs were converted to BrainVision float32 files, one per session, with events and electrode coordinates (Talairach-like) and anatomical labels taken from the release.",
+  "title": "Xie-2026-right-10.1038/s41467-026-74099-5",
+  "description": "Epoched stereo-EEG recordings (157 contacts, 200 Hz, 588 trials) from a single patient with post-traumatic stress disorder during a face interpretation-bias task. Data were collected before and after SEEG-guided radiofrequency ablation of the right amygdala. The dataset is a BIDS derivative repackaging of the authors' OSF release, including event markers and anatomical contact annotations.",
+  "methods_description": "Stereo-EEG was recorded from 157 contacts during a face interpretation-bias task in pre-ablation and post-ablation sessions. Epochs span -0.5 to 0.795 s (260 samples at 200 Hz) and were repackaged into BrainVision format with event fields and channel coordinates and annotations from the released data.",
   "license": "CC-BY-NC-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -48,12 +48,10 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000679"
     },
     {
-      "term": "radiofrequency ablation"
+      "term": "post-traumatic stress disorder"
     },
     {
-      "term": "Stress Disorders, Post-Traumatic",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013313"
+      "term": "radiofrequency ablation"
     },
     {
       "term": "interpretation bias"
@@ -129,7 +127,8 @@
       "award_number": "R01-EY037195"
     },
     {
-      "funder_name": "American Epilepsy Society"
+      "funder_name": "American Epilepsy Society",
+      "award_title": "Research & Training Fellowship for clinicians"
     }
   ],
   "resource_type_general": "Dataset",
@@ -153,5 +152,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "206f663437a7858e3b9ca823aff58a0cfc28f5034242536e43598831024934ae"
+  "source_hash": "0a72875716643151c57910beb0f8c24faa3d5d1789e97e54eab73cc3d05f32e2"
 }

@@ -1,5 +1,5 @@
 {
-  "Name": "Xie-2026-right-10.1038/s41467-026-74099-5",
+  "Name": "Xie2026 amygdala ablation PTSD: epoched stereo-EEG of the index patient before and after right amygdala radiofrequency ablation (interpretation-bias task)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-NC-4.0",
@@ -54,5 +54,5 @@
     "Fondazione Neurone"
   ],
   "DatasetDOI": "10.82901/nemar.nm000469",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
